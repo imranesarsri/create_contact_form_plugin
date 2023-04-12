@@ -21,7 +21,7 @@
     <div class="container-fluid px-4 mx-fluid table-responsive">
 
 
-<table id="CONTACT_FORM_By_Jalil_MESSAGES" class="table table-striped" style="width:100%">
+<table id="CONTACT_FORM" class="table table-striped" style="width:100%">
         <thead>
         <tr>
                 <th>id</th>
@@ -65,7 +65,7 @@
 
 
         $(document).ready(function () {
-    $('#CONTACT_FORM_By_Jalil_MESSAGES').DataTable({
+    $('#CONTACT_FORM').DataTable({
     responsive: true
 } );
 });
